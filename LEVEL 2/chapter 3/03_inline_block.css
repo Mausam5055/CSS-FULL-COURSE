@@ -1,0 +1,10 @@
+/* 4.inline-block - Similar to inline but we can set margin & 
+ padding. */
+ div { 
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: inline-block;
+}

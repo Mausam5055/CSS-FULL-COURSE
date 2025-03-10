@@ -1,0 +1,18 @@
+/* ------------Display Property------------
+display: inline / block / inline-block / none
+
+ 2.inline - Takes only the space required by the element. 
+ (no margin/ padding)
+ 3.block - Takes full space available in width.
+ 4.inline-block - Similar to inline but we can set margin & 
+ padding.
+ 5.none - To remove element from document flow */
+
+div {
+    background-color: pink;
+    display:inline; 
+}
+
+button { 
+    display: block;
+}

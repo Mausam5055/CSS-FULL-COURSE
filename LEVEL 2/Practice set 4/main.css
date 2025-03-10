@@ -1,0 +1,48 @@
+body {
+    background-image: url(photo.jpeg);
+    background-size: cover;
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+#mangal { 
+    height: 60px;
+    background-color:#0f1111 ;
+}
+
+button {
+    background-color: rgb(84, 53, 152);
+}
+
+#logo {
+    color:rgb(235, 231, 231);
+    font-size: 25px;
+}
+
+a {
+    margin-right: 100px;
+}
+
+.contentbox{
+    height: 100px;
+    width:100px;
+    border: 2px solid black;
+    display: inline-block;
+    /* background-image: url(mausam.jpeg);
+    background-size: cover; */
+}
+
+#content {
+    height: 500px;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    text-align: center;
+}

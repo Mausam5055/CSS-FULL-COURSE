@@ -1,0 +1,33 @@
+    /* ------TEXT TRANSFORM---------
+
+The text-transform property in CSS is used to change the case 
+of text (uppercase, lowercase, capitalization) in an element. 
+It modifies how the text looks without changing the actual 
+content in the HTML :content
+
+            Common Values:
+
+1.uppercase: Converts all text to UPPERCASE.
+Example: "hello" → "HELLO"
+
+2.lowercase: Converts all text to lowercase.
+Example: "Hello" → "hello"
+
+3.capitalize: Makes the first letter of each word uppercase.
+Example: "hello world" → "Hello World"
+
+4.none: Default value; keeps the text as it is written in the 
+HTML.
+
+Simple Version:
+The text-transform property lets you change text to all caps, 
+all lowercase, or capitalize each word. It’s like giving your 
+text a style makeover! */
+
+#one {
+    text-transform: uppercase;
+}
+
+#two {
+    text-transform: lowercase;
+}

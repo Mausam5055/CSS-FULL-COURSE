@@ -1,0 +1,67 @@
+body {
+    text-align: center;
+}
+
+div { 
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    border: 2px solid black;
+}
+
+#container {
+    width: 800px; /* The container has a fixed width of 800px */
+    height: 200px; /* The container has a fixed height of 200px */
+
+    display: flex; /* This makes the container a flexbox container, enabling flexbox properties. */
+    
+    flex-direction: row; /* Items are arranged in a row, from left to right (default behavior). */
+    
+    /* justify-content: center; */ /* Centers the items horizontally in the container. */
+    
+    justify-content: space-around; /* Distributes space evenly around the items. Equal space is added before, between, and after items. */
+
+    /* 
+    flex-direction: column; 
+    Items are arranged in a column, from top to bottom.
+    */
+
+    /* 
+    flex-direction: column-reverse;
+    Items are arranged in a column, but the order is reversed (bottom to top).
+    */
+
+    /* 
+    flex-direction: row-reverse; 
+    Items are arranged in a row, but the order is reversed (right to left).
+    */
+}
+
+
+#box1 {
+    background-color: red;
+}
+
+#box2 {
+    background-color: blue;
+}
+
+#box3 {
+    background-color: green; /* Sets the background color of box3 to green. */
+
+    height: 200px; /* The height of box3 is fixed at 200px. */
+
+    flex-shrink: 2; 
+    /* Controls how much the item shrinks when there isn't enough space.
+       - A value of 2 means this item will shrink twice as much as items with a flex-shrink value of 1.
+       - If flex-shrink is 0, the item will not shrink, even if there's not enough space in the container. */
+}
+
+
+#box4 {
+    background-color: yellow;
+}
+
+#box5 {
+    background-color: orange;
+}

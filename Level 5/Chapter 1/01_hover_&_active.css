@@ -1,0 +1,40 @@
+/* In CSS, :hover and :active are pseudo-classes that define 
+styles when an element is in a specific interactive state. 
+Here's a detailed explanation:
+
+              1.:hover
+The :hover pseudo-class applies styles to an element when a 
+user hovers over it with a pointing device (like a mouse). 
+It is commonly used for interactive elements such as links, 
+buttons, or divs */
+
+
+             /* 2.:active
+The :active pseudo-class applies styles to an element while it 
+is being clicked or pressed. Once the click is released, 
+the styles are removed */
+
+div { 
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+}
+
+/* adding pseudo class on the div for transition affect(
+hover-affect) on the box */
+
+/* Hover effect */
+div:hover{ 
+    background-color: bisque;
+    color: red;
+}
+
+/* Active (click) effect */
+div:active {
+    background-color: greenyellow;
+}
+
+Combining :hover and :active
+You can define both :hover and :active to create smooth and 
+interactive user experiences.

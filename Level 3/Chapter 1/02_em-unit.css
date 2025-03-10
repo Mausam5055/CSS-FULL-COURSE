@@ -1,0 +1,28 @@
+/* 2. em
+        Relative to the font size of the parent element.
+        If the parent font size is 16px:
+        1em = 16px
+        2em = 32px
+
+        Example:
+
+        p {
+          font-size: 2em; Twice the parent font size */
+
+          #box1 {
+            height: 100px;
+            width: 200px;
+            background-color: blue;
+            font-size: 10px;
+        }
+        
+        #box2 {
+            height: 50px;
+            width: 30%;
+            /* margin-left: 10%; */
+            background-color: yellow;
+            font-size: 2em;
+            width: 5em;
+          /* witdth gets 5 times of the parents font size  */
+            /* two times of parent font size */
+        }          

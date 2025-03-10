@@ -1,0 +1,26 @@
+/* Color Property
+ Used to set the color of foreground
+ color:  red;
+ color:  pink;
+ color:  blue;
+ color:  green; */
+/* all the text,links,button that we want to be displayed 
+inside a website comes under foreground */
+
+
+/* Color Systems
+ RGB
+ color:  rgb(255, 0, 0);
+ color:  rgb(0, 255, 0); */
+
+h1 {
+     color:rgb(113, 101, 80);
+}
+ 
+p{
+    color:aquamarine;
+}
+
+button{
+    color:brown;
+}

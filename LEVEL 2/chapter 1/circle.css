@@ -1,0 +1,21 @@
+
+/* To create a circle in CSS from a square box, you can use the border-radius 
+property. Here's how you can do it:
+
+Steps to Create a Circle:
+1.Start with a square element: Ensure the width and height are equal to make the 
+base shape a square.
+2.Apply border-radius: 50%: This rounds the corners of the square so that it 
+transforms into a circle */
+
+
+div {
+    height: 100px; 
+    background-color: pink;  
+    width: 100px;   
+    border-width: 3px; 
+    border-style: dashed;  
+    border-color: black;  
+    text-align: center;  
+    border-radius: 50%;
+}

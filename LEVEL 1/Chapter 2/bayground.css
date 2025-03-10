@@ -1,0 +1,10 @@
+/* Background Color Property
+ Used to set the color of background
+ background-color:  red;
+ background-color:  pink;
+ background- color:  blue;
+ background- color:  green; */
+
+body {
+    background-color:rgb(208, 255, 0);
+} 

@@ -1,0 +1,56 @@
+/* Position
+ The position CSS property sets how an element is positioned in a 
+ document.
+
+ position : static / relative / absolute / fixed */
+
+/*  
+ 1.static - default position (The top, right, bottom, left,
+ and z-index properties have no effect)
+
+ 2.relative - element is relative to itself. 
+ (The top, right, bottom, left, and z-index will work)
+
+ 3.absolute - positioned relative to its clo sest positioned ancestor.
+  (removed from the flow)
+
+ 4.fixed - positioned relative to browser. (removed from flow)
+ 5.sticky - positioned based on use r's scroll position */
+
+
+
+ div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+ }
+
+ #box1 {
+    position: static;
+    /* fixed position of box that cannot be changed */
+ }
+
+
+#box2 {
+    position:relative;
+    top:10px; 
+    /* moves by 10px from top from its current position */
+    left:10px;
+    /* moves by 10px towards left from its current position */
+} 
+
+#box3 {
+    position:absolute;
+    top:10px;
+    /* box moves relative to the body tag in html(i.e its ancestor tag) */
+}
+
+#box4 {
+    position: fixed;
+    right:10px;
+    bottom:10px;
+    /* box moves relative to our entire wepage(document) */
+}
+

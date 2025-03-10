@@ -1,0 +1,16 @@
+  /* ----------ID SELECTOR---------- */
+
+/* an ID selector in CSS is used to apply styles to a specific
+element with a unique id attribute. Each id must be unique on 
+a page, so the styles will only apply to that one element.
+
+How it works:
+Use a # symbol followed by the id name to target the element. */
+
+#headingone {
+    color:black;
+}
+
+#headingtwo {
+    color:blue;
+}

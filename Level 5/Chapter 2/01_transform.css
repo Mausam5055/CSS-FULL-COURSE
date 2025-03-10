@@ -1,0 +1,26 @@
+/* CSS Transform
+ Used to apply 2D & 3D transformations to an element */
+
+div { 
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    position: absolute;
+   top: 100px;
+   left: 100px;
+   transition: all 2s ease-in;
+   transform: rotate(45deg); /*rotates box by 45deg */
+}
+
+
+div:hover{ 
+    background-color: bisque;
+    color: red;
+    font-size: 20px;
+    transform:scaleY(2);
+}
+
+div:active {
+    background-color: greenyellow;
+}

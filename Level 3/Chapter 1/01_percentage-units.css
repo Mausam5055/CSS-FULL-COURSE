@@ -1,0 +1,16 @@
+#box1 {
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+}
+
+#box2 {
+    height: 50px;
+    width: 30%;
+    /* margin-left: 10%; */
+    background-color: yellow;
+}
+
+/* 
+box2 (i.e div 2 is the child of the div 1 here)and so box 2 will get 
+the width 30%{30px} of that of thee parent div(i.e box 1) */

@@ -1,0 +1,72 @@
+/* What is a Transition?
+A transition allows an element to change smoothly from one 
+state to another over a specified time.
+
+For example:
+A button’s color changes gradually when you hover over it.
+A box grows in size smoothly when clicked.
+
+         Transition Properties:
+
+1.transition-property
+What it does: Specifies which CSS property to animate.
+Examples:
+background-color, width, height, font-size, etc.
+Use all to animate all animatable properties.
+                Example Usage:
+                transition-property: background-color; 
+                 Only the background color will animate 
+
+2.transition-duration
+What it does: Sets how long the transition will take (time).
+Examples:
+2s = 2 seconds
+400ms = 400 milliseconds (1 second = 1000ms).
+Example Usage:
+                transition-duration: 2s; 
+                 Animation will take 2 seconds 
+
+3.transition-timing-function
+What it does: Controls the speed of the animation over its duration.
+                        Common values:
+ease: Starts slow, speeds up, then slows down.
+ease-in: Starts slow, then speeds up.
+ease-out: Starts fast, then slows down.
+linear: Maintains a constant speed.
+steps: Breaks the animation into steps.
+Example Usage:
+                transition-timing-function: ease-out; 
+                 Starts fast, ends slow 
+
+4.transition-delay
+What it does: Sets how long to wait before starting the animation.
+Examples:
+2s = Wait 2 seconds before the animation starts.
+0s = No delay, animation starts immediately.
+Example Usage:
+                    transition-delay: 1s; 
+                    Waits 1 second before animating 
+Combined Example
+
+div {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition-property: background-color, width;( Animate color and size )
+  transition-duration: 2s; /* Takes 2 seconds 
+  transition-timing-function: ease-in-out; ( Starts slow, speeds up, then slows down )
+  transition-delay: 1s; /*( Waits 1 second before starting )
+}
+
+div:hover {
+  width: 200px; ( New size) 
+  background-color: blue; ( New background color) 
+}
+
+
+                    --------How It Works:---------
+When you hover over the div, it waits 1 second before starting.
+Then it smoothly changes:
+Background color from red to blue.
+Width from 100px to 200px over 2 seconds.
+The speed starts slow, accelerates, then slows down at the end. */

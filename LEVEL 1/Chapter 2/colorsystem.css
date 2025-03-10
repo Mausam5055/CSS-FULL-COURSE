@@ -1,0 +1,47 @@
+/* Color Systems
+ Hex (Hexadecimal)
+ color : #ff0000;
+ color : # 00ff00; */
+
+ /* The hexadecimal number system, also known as base-16, is a
+ numeral system that uses 16 symbols to represent values. 
+ These symbols include:
+
+ Digits: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+ Letters: A, B, C, D, E, F (representing values 10 through 15)  */
+
+ /* In CSS (Cascading Style Sheets), hexadecimal numbers are primarily used to specify colors. A hexadecimal color code starts with a # symbol, followed by 3 or 6 hexadecimal characters. These represent the red, green, and blue (RGB) components of a color.
+
+ Syntax
+ A hex color code looks like this:
+ #RRGGBB or #RGB
+ 
+ RR, GG, and BB: Represent the intensity of the red, green, and blue components, respectively.
+ 
+ Each component ranges from 00 (minimum intensity) to FF (maximum intensity).
+ Example: #FF0000 is pure red, #00FF00 is pure green, and #0000FF is pure blue.
+ Shorthand Notation: If the values for each color channel are the same for both digits (e.g., #FFCC00), they can be shortened to one digit per channel:
+ 
+ Example: #FFC is the same as #FFCC00.  */
+
+ /* Color Examples:
+ Hex Code	Color
+ #FFFFFF	White
+ #000000	Black
+ #FF0000	Red
+ #00FF00	Green
+ #0000FF	Blue
+ #FFFF00	Yellow
+ #FFA500	Orange
+ #800080	Purple  */
+
+ /* Tips
+1.Use a color picker tool to choose colors and get their hex values.
+2.Remember, hex codes are case-insensitive: #FF5733 is the same as #ff5733. */
+
+body {
+    background-color: #ff0000;
+}
+
+/* Hexadecimal colour code is used to give colors jt like
+colorproperty */

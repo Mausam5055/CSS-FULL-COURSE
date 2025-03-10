@@ -1,0 +1,17 @@
+#box{
+    background-color: blue;
+    color:aliceblue;
+}
+
+.heading{ 
+    color:red;
+}
+
+/* or we can write,
+h1,h2,h3 {
+    color:red;
+} */
+
+button {
+    background-color: green;
+}

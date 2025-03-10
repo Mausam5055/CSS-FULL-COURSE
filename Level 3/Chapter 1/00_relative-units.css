@@ -1,0 +1,63 @@
+  /* --------RELATIVE UNITS---------
+
+In CSS, relative units are measurements that adjust based on 
+the size of other elements or the environment, such as the 
+parent element, the browser window, or the root element. 
+They make your website more flexible and responsive.
+
+Here are some common relative units:
+
+        
+/* 1. em
+
+        A.Relative to the font size of the parent element.
+        B.If the parent font size is 16px:
+        1em = 16px
+        2em = 32px
+
+        Example:
+        p {
+          font-size: 2em; /* Twice the parent font size */
+        
+/* 
+2. rem
+
+        A.Relative to the font size of the root element (<html>), usually set to 16px by default.
+        B.1rem = 16px (if the root font size is not changed).
+
+        Example:
+        p {
+          font-size: 1.5rem; /* 1.5 times the root font size (16px * 1.5 = 24px) */
+
+/* 3. %
+        A.Percentage values are relative to the size of the 
+        parent element.
+
+        B.For widths:
+        50% means half the parent's width.
+
+        Example:
+        div {
+          width: 50%; /* Half the width of the parent container */
+    
+
+/*          
+4. vw (Viewport Width)
+        A.Relative to 1% of the viewport’s width 
+        (browser window width).
+        B.100vw is the full width of the browser window.
+
+        Example:
+        div {
+          width: 50vw; /* 50% of the viewport width */
+      
+/* 
+5. vh (Viewport Height)
+
+        A.Relative to 1% of the viewport’s height (browser window height).
+        B.100vh is the full height of the browser window.
+
+        Example:
+        div {
+          height: 100vh; /* Full height of the viewport */ 
+      

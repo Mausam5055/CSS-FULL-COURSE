@@ -1,0 +1,8 @@
+/* Including External Stylesheet
+ Writing CSS in a separate document & linking it with HTML file */
+
+ h1 {
+     color:red;    /* changing the colour inide h1 tag in style.html file to red*/
+ }
+
+ 

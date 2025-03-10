@@ -1,0 +1,58 @@
+/*   ---------------------Height-------------------
+ By default, it sets the content area height of the element
+
+ div {
+    height:  50px; 
+}  
+    */
+
+           /*----------- Width-----------
+By default, it sets the content area  width of the element
+div {
+        
+       width:  50px;
+    } */
+
+
+/*       ----------------Border-------------
+ Used to set an element's border
+ border-width : 2px;
+ border-style : solid / dotted / dashed
+ border-color : black; */
+
+
+ /* --------------------Border Shorthand---------------
+ border : 2px solid black; 
+ 
+can be written inplace of above:
+        i.e  border-width : 2px;
+        border-style : solid / dotted / dashed
+        border-color : black; 
+        can be replaced by: border : 2px solid black; */ 
+
+
+
+h1{
+    height: 100px;
+    width: 400px;
+    /* border-width: 2px;
+    border-style: solid;
+    border-color: black; */
+    border: 2px solid black;
+    background-color: aqua;
+    text-align: center;
+}
+
+div {
+    height: 100px; 
+    background-color: blue;  
+    width: 100px;   
+    border-width: 3px; 
+    border-style: dashed;  
+    border-color: black;  
+    text-align: right;          
+}
+
+/* This sets the height of div part inside html to 100pixles. we used the blue 
+color to see the 100px height in the website */
+

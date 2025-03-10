@@ -1,0 +1,49 @@
+           /* --------TRANSITIONS--------
+
+In simple words, CSS transitions make changes to a style 
+(like color, size, or position) happen gradually over time 
+instead of instantly. This adds smooth animation effects to 
+your web page.
+
+            -----------How It Works--------------
+1.You define the CSS property you want to animate 
+(e.g., background-color, transform).
+
+2.Set the time (duration) for the animation to take place.
+
+3.When the property changes (like on hover), the browser animates
+the change smooth */
+
+div { 
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    transition-property: all; /* This means all animatable CSS properties (like color, width, height, background-color, etc.) will be animated when they change. */
+   transition-duration: 2s; /* This sets the duration of the animation to 2 seconds, meaning the change will happen smoothly over 2 seconds. */
+   /* transition-timing-function: steps(3); */
+   transition-timing-function: ease-in;
+}
+
+/* adding pseudo class on the div for transition affect(
+hover-affect) on the box */
+
+/* Hover effect */
+div:hover{ 
+    background-color: bisque;
+    color: red;
+    font-size: 20px;
+}
+
+/* Active (click) effect */
+div:active {
+    background-color: greenyellow;
+}
+
+
+/* 1.property: The CSS property to animate (e.g., color, width, all for all 
+animatable properties).
+2.duration: How long the animation takes (e.g., 0.5s, 1s).
+3.timing-function (optional): Controls the speed of the animation 
+(e.g., ease, linear).
+4.delay (optional): Adds a delay before the animation starts (e.g., 0.2s). */

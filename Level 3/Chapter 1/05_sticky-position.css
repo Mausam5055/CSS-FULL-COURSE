@@ -1,0 +1,59 @@
+/* position: sticky in CSS makes an element act normal at first 
+(like it's in its usual spot), but when you scroll to a certain point,
+ it sticks to the screen, like a sticky note.
+
+Easy way to understand:
+1.Imagine a box on a page.
+2.Normally, it stays in its place as you scroll.
+3.With position: sticky, you can make it "stick" to the top 
+(or side) of the page when you scroll far enough.
+
+Example:
+You tell the box: "Stay in your place, but if I scroll past you, 
+stick to the top of the screen."
+
+Here’s the rule you use in CSS:
+
+        position: sticky;
+        top: 0; /* Stick to the top of the screen */
+/* 
+It works like glue but only within its container. Once the container is 
+out of view, the box scrolls away too. */ 
+
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid red;
+    display: inline-block;
+ }
+
+ #box1 {
+    position: static;
+    /* fixed position of box that cannot be changed */
+ }
+
+
+#box2 {
+    position:relative;
+    top:10px; 
+    /* moves by 10px from top from its current position */
+    left:10px;
+    /* moves by 10px towards left from its current position */
+} 
+
+#box3 {
+    position:sticky;
+    top:0px;
+    /* box moves relative to the body tag in html(i.e its ancestor tag) */
+}
+
+#box4 {
+    position: fixed;
+    top: 0px;
+    /* box moves relative to our entire wepage(document) */
+}
+
+/* scrol down in the html document in the webpage to see the differnence */

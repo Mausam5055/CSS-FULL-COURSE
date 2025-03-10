@@ -1,0 +1,15 @@
+  /* ----------CLASS SELECTOR-------- */
+
+/* A class selector in CSS is used to style one or more elements 
+that share the same class attribute. Unlike id, a class can be 
+reused on multiple elements, making it more flexible.
+
+How it works:
+Use a . (dot) followed by the class name to target the 
+element(s). */
+
+
+.myclass{
+    color:brown;
+}
+   

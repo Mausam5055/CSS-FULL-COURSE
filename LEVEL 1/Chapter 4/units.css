@@ -1,0 +1,57 @@
+/* In CSS, units are used to define the size of elements, like 
+width, height, padding, margins, and font sizes. There are two 
+main types of units:
+
+1. Absolute Units
+These are fixed and do not change based on the screen size or 
+resolution.
+
+    Examples:
+    px (pixels): A fixed size. Example: width: 100px; makes 
+    something 100 pixels wide.
+    cm (centimeters) & mm (millimeters): Rarely used in web 
+    design.in (inches): Also rare; 1 inch = 96px.
+    Use case: When you need an element to stay the same size 
+    no matter where it’s displayed. */
+
+
+
+/* ----------LINE HEIGHT IN CSS----------
+In CSS, line-height controls the amount of space between lines 
+of text in an element. It affects the vertical spacing, making 
+text easier to read or fitting it within a specific layout */
+
+
+/* 
+Common Values:
+
+        1.Numbers (Unitless):
+Example: line-height: 1.5;
+This means the line height is 1.5 times the size of the text.
+It scales automatically with font size.
+
+        2.Lengths (with units):
+Example: line-height: 20px;
+The space between lines is fixed, regardless of font size.
+
+        3.Percentages:
+Example: line-height: 150%;
+This sets the line height to 150% of the font size.
+
+        4.Normal:
+Default value, based on the browser's default spacing 
+(usually around 1.2). */
+
+
+
+
+#one {
+    font-size: 25px;
+    line-height: 1px;
+}
+
+#three {
+    font-size: 10px;
+}
+
+

@@ -1,0 +1,55 @@
+     /* -----ALPHA CHANNEL--------
+
+In CSS, an alpha channel controls the transparency 
+(or opacity) of a color. It allows you to make colors 
+partially or fully transparent.
+
+How it works:
+1.The alpha channel is a value between 0 and 1:
+2.0 means the color is completely transparent (invisible).
+3.1 means the color is completely opaque (fully visible).
+4.Values like 0.5 make the color 50% transparent 
+(semi-transparent).
+
+Example:
+You can define colors with transparency using rgba() or
+hsla() functions:
+
+RGBA: rgba(red, green, blue, alpha)
+
+    eg.
+    background-color: rgba(255, 0, 0, 0.5); 
+    /* Red with 50% transparency */
+
+/* HSLA: hsla(hue, saturation, lightness, alpha)
+
+eg.
+    background-color: hsla(0, 100%, 50%, 0.7); 
+    /* Red with 70% visibility */
+
+/* Why use it?
+
+To make elements see-through, blending them with what's 
+behind.For effects like overlays, highlights, or soft 
+shadows.Think of it like tinted glass: the alpha channel 
+is how much you "tint" the color's visibility. */ 
+
+div {
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline-block;
+}
+
+#box1{
+    background-color: rgba(0,0,225,0.5);
+}
+
+#box2{
+    background-color: rgba(0,0,225,0.75);
+}
+
+#box3{
+    background-color: rgba(0,0,225,1);
+}

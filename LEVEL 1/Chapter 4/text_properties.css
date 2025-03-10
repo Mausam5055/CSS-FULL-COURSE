@@ -1,0 +1,73 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+}
+
+h2 {
+    text-decoration: red underline; 
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* FOR MORE TeXT DECORATION TYPES AND VISIT 'mdn' WEBSITE   */
+
+
+    /* ---- FONT FAMILY--------
+
+    In CSS, the font-family property allows you to specify the 
+    fonts for text. You can define a priority list 
+    (or fallback fonts) to ensure the browser uses the most 
+    suitable font available.
+
+    How it works:
+    The browser tries to apply fonts in the order you list them.
+    If the first font is not available on the user’s system, 
+    it moves to the next font, and so on.You should always end
+    with a generic font family 
+    (like serif, sans-serif, or monospace) as a fallback.
+
+    Syntax:
+    selector {
+      font-family: "Font1", "Font2", Generic-Font-Family;
+    }
+
+    Font1: The preferred font.
+    Font2: The fallback if Font1 is unavailable.
+    Generic-Font-Family: A broad category of fonts to ensure a final backup.
+    Example:
+
+    body {
+      font-family: "Arial", "Helvetica", sans-serif;
+    }
+    First choice: If "Arial" is available, it will be used.
+    Second choice: If "Arial" is not available, the browser 
+    tries "Helvetica".Fallback: If neither is available, 
+    the browser uses any available sans-serif font.
+
+    Tips:
+    Use quotes: For font names with spaces (e.g., "Times New 
+    Roman"), use double or single quotes. For single-word font 
+    names (e.g., Arial), quotes are optional.Always include a 
+    generic fallback: This ensures text is always displayed, 
+    even if none of your specified fonts are available.
+    Font availability depends on the user's system: Not all 
+    fonts are installed everywhere.
+
+
+    Common Generic Font Families:
+    serif: Fonts with small lines (serifs) at the ends of 
+    characters (e.g., Times New Roman).sans-serif: Clean fonts
+    without serifs (e.g., Arial, Helvetica).
+
+    monospace: Fixed-width fonts (e.g., Courier New).
+
+
+    Simple Version:
+    The font-family property lets you list fonts in order of 
+    priority. The browser will use the first one it finds on 
+    the user’s computer, and if none are available, it will 
+    fall back to a generic font type. This ensures text is 
+    always readable!     */

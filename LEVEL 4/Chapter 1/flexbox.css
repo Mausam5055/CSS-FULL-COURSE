@@ -1,0 +1,64 @@
+/* ---------Flexbox-------
+
+ Flexible Box Layout
+ It is a one-dimensional layout method for arranging items in 
+ rows or columns. */
+
+ /* The Flexbox model in CSS is a layout system designed to arrange elements in a container and make it easier to align, space, and distribute them. Here's a simple explanation:
+
+ Key Points:
+ Flex Container and Items:
+ A container becomes a "flex container" when you apply display: flex;.
+
+ The child elements inside it are called "flex items."
+
+ Main Axis and Cross Axis:
+ 1.The main axis is the direction in which flex items are placed 
+ (default: left-to-right in a row).
+
+ 2.The cross axis is perpendicular to the main axis 
+ (default: top-to-bottom).
+
+
+ Flexbox Properties:
+
+            1.For the container:
+
+ flex-direction: Defines the direction of items (row, column, reverse).
+ justify-content: Aligns items along the main axis (left, center, space-between, etc.).
+ align-items: Aligns items along the cross axis (top, center, stretch, etc.).
+ flex-wrap: Controls whether items should wrap to the next line if they don’t fit
+
+
+            2.For the items:
+
+ flex: A shorthand to control size and space.
+ align-self: Aligns an individual item on the cross axis.
+ order: Changes the order of items.
+
+ Why Use Flexbox?
+ Flexible Layout: Automatically adjusts to screen sizes.
+ Easy Alignment: Centering things (horizontally and vertically) is super simple.
+ Responsive Design: Handles items wrapping and spacing naturally. */
+
+                /* FlexItem properties 
+                
+ flex: A shorthand for flex-grow, flex-shrink, and flex-basis.
+ flex-grow: Specifies how much the item wants to grow relative to other items (default: 0).
+ flex-shrink: Specifies how much the item wants to shrink relative to other items (default: 1).
+ flex-basis: Defines the initial size of an item (default: auto). */
+
+
+
+                    /*. order
+ Defines the order of items in the container. Default is 0.
+ 
+ Higher values appear later, and lower values appear earlier.
+ 
+
+ .item1 {
+   order: 1; /* Appears after default items */
+/* 
+   .item2 {
+    order: -1;  Appears before default items 
+  } */

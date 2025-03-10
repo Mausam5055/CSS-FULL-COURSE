@@ -1,0 +1,14 @@
+        <!-- ---------Transition Shorthand--------
+The shorthand property transition lets you define all individual transition properties (property name, duration, timing-function, and delay) in a single line.
+
+    ------------WITHOUT SHORTHAND------------
+
+transition-property: font-size; /* Specifies the property to animate */
+transition-duration: 2s; /* Specifies that the transition takes 2 seconds */
+transition-timing-function: ease-in-out; /* Specifies that the animation will start slow, speed up, and then slow down */
+transition-delay: 0.2s; /* Specifies that the transition will start after a delay of 0.2 seconds */
+   
+
+   --------------WITH SHORTHAND---------------
+   the above can be written in single line of code as: 
+transition: font-size 2s ease-in-out 0.2s; -->

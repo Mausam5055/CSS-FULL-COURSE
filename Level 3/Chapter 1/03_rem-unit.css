@@ -1,0 +1,30 @@
+/* 2. rem
+
+        A.Relative to the font size of the root element (<html>), usually set to 16px by default.
+        B.1rem = 16px (if the root font size is not changed).
+
+        Example:
+        p {
+          font-size: 1.5rem; 1.5 times the root font size (16px * 1.5 = 24px) */
+
+
+          #box1 {
+            height: 100px;
+            width: 200px;
+            background-color: blue;
+            font-size: 10px;
+        }
+        
+        #box2 {
+            height: 50px;
+            width: 30%;
+            /* margin-left: 10%; */
+            background-color: yellow;
+            font-size: 2em;
+            width: 5rem;
+           height: 50vh;
+           
+
+          /* witdth gets 5 times of the parents font size  */
+            /* two times of parent font size */
+        }    

@@ -1,0 +1,26 @@
+/*         --------PADDING------
+In CSS, padding refers to the space between an element's 
+content and its border. Padding creates inner spacing within 
+the element, helping to control layout and improve visual 
+design */   
+
+/* Padding
+        1.padding-left
+        2.padding-right
+        3.padding-top
+        4.padding-bottom */
+
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(79, 160, 133);
+    border: 2px solid black;
+
+    /* padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px; */
+
+    padding: 25px,25px,25px,25px;
+}

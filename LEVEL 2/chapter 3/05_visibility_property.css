@@ -1,0 +1,19 @@
+/* ------------Visibility------------
+ visibility: hidden;
+
+ Note : When visibility is set to none, space for the element is reserved.
+ But for display set to none, no space is reserved or blocked for the
+ element */
+
+ div { 
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: inline-block;
+}
+
+#box2 {
+    visibility: hidden;
+}

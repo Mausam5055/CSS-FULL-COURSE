@@ -1,0 +1,33 @@
+/* Universal Selector ===  * { }        */
+/* The universal selector in CSS is written as a *, and 
+it means "select everything."
+What it does:
+It applies a style to all elements on a webpage. */
+
+
+* { 
+    color:goldenrod;
+}
+
+/* now if we change particularly the colour of button
+then it will get the 2nd priority after the above universal 
+colur is being applied to all the elements */
+
+button {
+    color:aquamarine;
+}
+
+
+/* Element Selector : h1 { }
+an element selector in CSS is used to target and style specific
+HTML elements directly by their tag name.
+
+How it works:
+You write the name of the HTML element in your CSS, 
+and it will apply the styles to all occurrences of that
+element. */
+
+h1 { 
+    color:brown;
+}
+

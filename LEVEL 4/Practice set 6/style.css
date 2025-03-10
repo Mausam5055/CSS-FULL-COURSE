@@ -1,0 +1,30 @@
+.navbar {
+    background-color: pink; /* Sets the background color of the navbar to pink. */
+    display: flex; /* Turns the navbar into a flex container, enabling Flexbox properties. */
+    justify-content: space-evenly; /* Spaces the items evenly, with equal space around each item. */
+}
+
+a {
+    text-decoration: none; /* Removes the underline from links. */
+    color: black; /* Sets the text color of the links to black. */
+}
+
+li {
+    list-style-type: none; /* Removes the default bullet points from list items. */
+    /* display: inline; */ /* (Optional) Can be used to make list items appear inline, but Flexbox handles it here. */
+}
+
+.outer {
+    height: 400px; /* Sets the height of the outer container to 400px. */
+    width: 400px; /* Sets the width of the outer container to 400px. */
+    background-color: blue; /* Sets the background color of the outer container to blue. */
+    display: flex; /* Makes the outer container a flex container to center its child element. */
+    justify-content: center; /* Horizontally centers the child element (inner div). */
+    align-items: center; /* Vertically centers the child element (inner div). */
+}
+
+.inner {
+    height: 100px; /* Sets the height of the inner box to 100px. */
+    width: 100px; /* Sets the width of the inner box to 100px. */
+    background-color: violet; /* Sets the background color of the inner box to violet. */
+}

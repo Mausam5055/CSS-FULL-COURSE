@@ -1,0 +1,52 @@
+ /* -----------BOX MODEL IN CSS--------------- */
+
+/* The box model in CSS is a fundamental concept that describes how elements are 
+rendered on a web page. It consists of the following components:
+
+1.Content
+The innermost part of the box, where text, images, or other content is 
+displayed.
+
+2.Padding
+The space between the content and the border.
+Padding creates space inside the box but outside the content.
+The background color of the element is applied to the padding as well.
+
+3.Border
+A wrapping around the padding (or content if there's no padding).
+You can set the width, style, and color of the border.
+
+4.Margin
+The space between the element and its neighboring elements.
+Margins are transparent and don't inherit background colors. */
+/* 
+
+
++-------------------------+
+|        Margin           |
+|  +-------------------+  |
+|  |     Border         |  |
+|  |  +-------------+  |  |
+|  |  |   Padding    |  |  |
+|  |  |  Content     |  |  |
+|  |  +-------------+  |  |
+|  +-------------------+  |
++-------------------------+
+
+Box Model in CSS Properties:
+
+1.Content: The width and height of the box (width, height).
+2.Padding: Controlled using padding, padding-top, padding-right, 
+padding-bottom, padding-left.
+3.Border: Controlled using border, border-width, border-style, border-color.
+4.Margin: Controlled using margin, margin-top, margin-right, margin-bottom,
+ margin-left. */
+/* 
+Box-Sizing:
+The default behavior can be altered using the box-sizing property:
+
+1.content-box (default): Width and height include only the content. Padding and border are 
+added outside.
+
+2.border-box: Width and height include content, padding, and border */
+

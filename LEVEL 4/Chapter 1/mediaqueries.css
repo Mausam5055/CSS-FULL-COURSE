@@ -1,0 +1,46 @@
+/* ------------Media Queries in CSS-------------
+
+Media queries are used in CSS to apply styles based on certain 
+conditions, such as the width of the browser window or the 
+device's screen size. This allows you to create responsive web
+ designs that adjust to different screen sizes like mobile 
+ phones, tablets, and desktops. */
+
+/* Default styles for the div */
+div {
+    height: 100px; /* Set the height of the div to 100px */
+    width: 100px;  /* Set the width of the div to 100px */
+    background-color: aqua; /* Default background color is aqua */
+}
+
+/* Media query for screens with width exactly 600px */
+@media (width: 600px) {
+    div {
+        background-color: red; /* Change the background color to red when width is exactly 600px */
+    }
+}
+
+/* Media query for screens with a minimum width of 600px */
+@media (min-width: 600px) {
+    div {
+        background-color: green; /* Change the background color to green when the width is 600px or more */
+    }
+}
+
+
+                 /* ADDITIONAL 
+
+min-width: 200px: Applies the styles if the screen width is at 
+least 200px.
+
+max-width: 300px: Limits the styles to screens that are no 
+wider than 300px.
+
+This will apply the red background to the div only if the 
+screen width is between 200px and 300px. */
+
+/* EG:  @media (min-width : 200px) and (min-width : 300px) {
+    div {
+    background-color : red;
+    }
+    } */

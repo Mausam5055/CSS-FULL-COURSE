@@ -1,0 +1,57 @@
+  /* ------Z INDEX-------
+
+The z-index in CSS is like the layer number of an element. 
+It controls which element appears on top when they overlap.
+
+How it works:
+
+1.Imagine you’re stacking papers on a desk.
+2.The higher the z-index number(+ve value), the higher the 
+paper is in the stack.z-index : 1 / 2 / ...
+3.Elements with a lower z-index(-ve valus) will be behind 
+elements with a higher z-index. z-index : -1 / -2 / ..
+
+Rules:
+1.By default, elements have a z-index of 0.
+2.If two elements have the same z-index, the one written 
+later in the HTML will be on top.
+3.z-index only works on elements with a position of relative, 
+absolute, fixed, or sticky. */
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+ }
+
+ #box1 {
+    position: static;
+    /* fixed position of box that cannot be changed */
+ }
+
+
+#box2 {
+    position:relative;
+    top:10px; 
+    /* moves by 10px from top from its current position */
+    left:10px;
+    /* moves by 10px towards left from its current position */
+    z-index: 1;
+    /* box2 overlaps box3 since it has higer z index value */
+} 
+
+#box3 {
+    position:absolute;
+    top:500px;
+    left:20px;
+    z-index: 0;
+    /* box moves relative to the body tag in html(i.e its ancestor tag) */
+}
+
+#box4 {
+    position: fixed;
+    top: 50px;
+    /* box moves relative to our entire wepage(document) */
+}

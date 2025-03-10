@@ -1,0 +1,14 @@
+/* 5.none - To remove element from document flow  */
+
+div { 
+    width: 100px;
+    height: 100px;
+    margin: 25px;
+    padding: 25px;
+    display: inline;
+    display: inline-block;
+}
+
+#box2 {
+    display: none;
+}
